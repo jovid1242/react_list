@@ -1,0 +1,23 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  overflow: hidden;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 0 25px;
+}
+tr {
+  position: relative;
+  cursor: pointer;
+  height: 80px;
+  border-bottom: 2px solid #eee;
+  transition: 0.5s ease-in-out;
+}
+ 
+tr:hover {
+  box-shadow: 0 3px 20px #e7e7e7;
+}
